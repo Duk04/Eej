@@ -3,15 +3,17 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-
   width: 100vw;
   background-color: palevioletred;
 }
 .hi {
-  background: url(/zurag.webp);
+  background-image: url(/balloo.avif);
   width: 100vw;
   height: 100vh;
   position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .birthdayCard {
   position: relative;
